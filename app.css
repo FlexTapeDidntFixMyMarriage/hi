@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(148, 159, 241);
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image {
+    margin-bottom: 30px;
+    display: block;
+    width: 252px;
+    height: 138px;
+}
+
+.buttons_info {
+    height: 30px;
+}
+
+.button-container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    transition: 0.7s;
+    margin-right: 10px;
+}
+  
+.Price {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(84, 87, 255);
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+}
+
+.Price:hover {
+    background-color: darkblue;
+
+}
+
+.Features {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(84, 87, 255);
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+}
+
+.Features:hover {
+    background-color: darkblue;
+
+}
+
+.Info {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(84, 87, 255);
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+}
+
+.Info:hover {
+    background-color: darkblue;
+
+}
